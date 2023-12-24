@@ -1,0 +1,41 @@
+{
+  "user": [
+    {
+      "name": "sooraj",
+      "designtion": "sd1",
+      "id": 1
+    },
+    {
+      "name": "navdeep",
+      "designtion": "sd",
+      "id": 2
+    },
+    {
+      "name": "ravi sig",
+      "designtion": "Director",
+      "id": 3
+    },
+    {
+      "name": "jasvinder",
+      "designtion": "CEO",
+      "id": 4
+    },
+    {
+      "name": "dfasdf",
+      "course": "asdfasd",
+      "id": 5
+    },
+    {
+      "name": "sanjog",
+      "designtion": "sd1",
+      "id": 6
+    }
+  ],
+  "admin": [
+    {
+      "name": "ravi sig",
+      "designtion": "Director",
+      "id": 1
+    }
+  ]
+}
