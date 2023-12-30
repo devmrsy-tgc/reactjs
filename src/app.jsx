@@ -8,7 +8,7 @@ function App() {
 
     return <>
         {/* <Home data={data} />
-        <button onClick={() => setData({ age: 21, name: 'abhijeet' })} >Click on me</button> */}
+        <button onClick={() => set  Data({ age: 21, name: 'abhijeet' })} >Click on me</button> */}
         {/* <Counter data={data}/> */}
         <UserData />    
     </>

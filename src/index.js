@@ -7,7 +7,8 @@ import Practice from './practice/practice_1';
 import UserData from './components/conditional';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    // <AddCardItem />
-    <UserData/>
-);
+root.render
+    (<>
+        <AddCardItem />
+        <UserData />
+    </>)
