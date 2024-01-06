@@ -4,7 +4,7 @@ import "./style.css";
 import AddCardItem from "./components/validateStock";
 import Practice from "./practice/practice_1";
 import UserData from "./components/conditional";
-import { Form1, Form2 } from "./components/form"; // destructuring
+import Form from "./components/form"; // destructuring
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import NotFound from "./components/NotFound";
 import Home from "./components/home";
@@ -15,8 +15,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/form1" element={<Form1 />} />
-        <Route path="/form2" element={<Form2 />} />
+        <Route path="/form" element={<Form />} />
         <Route path="/userdata" element={<UserData />} />
         <Route path="/cart" element={<AddCardItem />} />
         <Route path="/practice" element={<Practice />} />
