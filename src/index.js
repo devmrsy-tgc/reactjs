@@ -1,18 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-// import App from './app'
-import './style.css'
-import AddCardItem from './components/validateStock';
-import Practice from './practice/practice_1';
-import UserData from './components/conditional';
-import { Form, Form1, Form2 } from './components/form'; // destructuring
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./style.css";
+import AddCardItem from "./components/validateStock";
+import Practice from "./practice/practice_1";
+import UserData from "./components/conditional";
+import { Form1, Form2 } from "./components/form"; // destructuring
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import NotFound from "./components/NotFound";
+import Home from "./components/home";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render
-    (<>
-        {/* <AddCardItem />
-        <UserData /> */}
-        {/* <Form1 />
-        <Form2 /> */}
-        <Form />
-    </>)
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/form1" element={<Form1 />} />
+        <Route path="/form2" element={<Form2 />} />
+        <Route path="/userdata" element={<UserData />} />
+        <Route path="/cart" element={<AddCardItem />} />
+        <Route path="/practice" element={<Practice />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+  </>
+);

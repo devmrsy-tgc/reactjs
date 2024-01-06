@@ -20,8 +20,6 @@ export function Form() {
     // }
  
     function onChangeHandler(event) {
-        console.log('name', event.target.name)
-        console.log('value', event.target.value)
         setData({ ...data, [event.target.name]: event.target.value })
     }
 
