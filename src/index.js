@@ -4,7 +4,7 @@ import "./style.css";
 import AddCardItem from "./components/validateStock";
 import Practice from "./practice/practice_1";
 import UserData from "./components/conditional";
-import Form from "./components/form"; 
+import { Form } from "./components/form";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import NotFound from "./components/NotFound";
 import Home from "./components/home";
