@@ -5,7 +5,7 @@ import AddCardItem from "./components/validateStock";
 import Practice from "./practice/practice_1";
 import UserData from "./components/conditional";
 import { Form1, Form2 } from "./components/form"; // destructuring
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import NotFound from "./components/NotFound";
 import Home from "./components/home";
 

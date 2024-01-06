@@ -1,5 +1,12 @@
+import BackButton from "./common/backButton";
+
 function NotFound() {
-    return <h1>404</h1>
+  return (
+    <>
+      <BackButton />
+      <h1>404</h1>
+    </>
+  );
 }
 
-export default NotFound
+export default NotFound;
